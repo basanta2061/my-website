@@ -1,0 +1,123 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Header Section */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    background: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .header .logo {
+    height: 50px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin: 0 10px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+  }
+  
+  .search-bar button {
+    padding: 5px;
+    background: #333;
+    color: white;
+    border: none;
+  }
+  
+  /* Big Image Section */
+  .big-image img {
+    width: 100%;
+    display: block;
+  }
+  
+  /* Recommendations Section */
+  .recommendations {
+    padding: 20px 0;
+  }
+  
+  .recommendations h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .thumbnails {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .thumbnail h3, .thumbnail p {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  /* About Me Section */
+  .about-me {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .about-me .profile-pic {
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  .about-me .about-text {
+    max-width: 600px;
+  }
+  
+  /* Contact Me Section */
+  .contact-me ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .contact-me ul li {
+    margin: 10px 0;
+  }
+  
+  /* Footer Section */
+  .footer {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 10px 0;
+  }
+  
